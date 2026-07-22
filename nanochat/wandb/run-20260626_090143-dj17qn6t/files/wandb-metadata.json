@@ -1,0 +1,42 @@
+{
+  "os": "Linux-5.10.0-38-amd64-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.20",
+  "startedAt": "2026-06-26T07:01:43.660844Z",
+  "args": [
+    "--device-batch-size=16",
+    "--run=nanochat_d24_sft"
+  ],
+  "program": "-m scripts.Full_chat_sft",
+  "git": {
+    "remote": "https://github.com/karpathy/nanochat.git",
+    "commit": "0aaca56805eb13f6e6e1fff789a08086902f12ab"
+  },
+  "email": "andrea.binetruy@gmail.com",
+  "root": "/home/abinetru/nanochat",
+  "host": "esterel42-1.sophia.grid5000.fr",
+  "executable": "/home/abinetru/nanochat/.venv/bin/python3",
+  "cpu_count": 128,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA H100 NVL",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "30333186048",
+      "used": "20938670080"
+    }
+  },
+  "memory": {
+    "total": "2164283019264"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H100 NVL",
+      "memoryTotal": "100485038080",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-953179dc-721e-fd65-077f-4cf60fb3dce9"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "20c3k45zkrlruu0yzlflamg10htsm4zw"
+}

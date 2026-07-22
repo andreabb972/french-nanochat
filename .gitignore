@@ -1,0 +1,21 @@
+# Logs et fichiers OAR
+OAR.*
+*.log
+
+# Poids de modèles et fichiers binaires lourds
+*.pt
+*.bin
+*.ftz
+*.safetensors
+*.h5
+*.model
+
+# Fichiers système et temporaires
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.gitattributes
+
+# Dossiers de résultats (souvent très lourds)
+results/
+outputs/

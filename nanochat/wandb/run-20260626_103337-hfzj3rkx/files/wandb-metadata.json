@@ -1,0 +1,42 @@
+{
+  "os": "Linux-5.10.0-38-amd64-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.20",
+  "startedAt": "2026-06-26T08:33:37.594528Z",
+  "args": [
+    "--device-batch-size=16",
+    "--run=nanochat_d24_sft"
+  ],
+  "program": "-m scripts.Full_chat_sft",
+  "git": {
+    "remote": "https://github.com/karpathy/nanochat.git",
+    "commit": "0aaca56805eb13f6e6e1fff789a08086902f12ab"
+  },
+  "email": "andrea.binetruy@gmail.com",
+  "root": "/home/abinetru/nanochat",
+  "host": "esterel37-1.sophia.grid5000.fr",
+  "executable": "/home/abinetru/nanochat/.venv/bin/python3",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "30333054976",
+      "used": "21188022272"
+    }
+  },
+  "memory": {
+    "total": "540808548352"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100 80GB PCIe",
+      "memoryTotal": "85899345920",
+      "cudaCores": 6912,
+      "architecture": "Ampere",
+      "uuid": "GPU-81ce2834-5708-7c30-ca85-ec061a0034e6"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "4so0mgsqwogusuwjiqhg1e5kzu3hq0wo"
+}

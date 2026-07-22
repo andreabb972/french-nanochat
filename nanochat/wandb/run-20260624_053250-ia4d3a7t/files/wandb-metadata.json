@@ -1,0 +1,19 @@
+{
+  "os": "Linux-5.10.0-38-amd64-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.20",
+  "startedAt": "2026-06-24T03:32:50.962618Z",
+  "args": [
+    "--device-batch-size=16",
+    "--run=nanochat_60_20_20"
+  ],
+  "program": "<python with no main file>",
+  "git": {
+    "remote": "https://github.com/karpathy/nanochat.git",
+    "commit": "0aaca56805eb13f6e6e1fff789a08086902f12ab"
+  },
+  "email": "andrea.binetruy@gmail.com",
+  "root": "/home/abinetru/nanochat",
+  "host": "esterel37-1.sophia.grid5000.fr",
+  "executable": "/home/abinetru/nanochat/.venv/bin/python3",
+  "writerId": "e2sgrc8lt4qvgkqqdbln4fgreug070zb"
+}

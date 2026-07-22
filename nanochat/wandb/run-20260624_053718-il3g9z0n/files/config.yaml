@@ -1,0 +1,114 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            96omsh2xo8teqk8qbbuzn0y4txqhgikz:
+                args:
+                    - --depth=12
+                    - --window-pattern=L
+                    - --target-param-data-ratio=8
+                    - --device-batch-size=16
+                    - --run=nanochat_60_20_20
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "30333054976"
+                        used: "21088497664"
+                email: andrea.binetruy@gmail.com
+                executable: /home/abinetru/nanochat/.venv/bin/python3
+                git:
+                    commit: 0aaca56805eb13f6e6e1fff789a08086902f12ab
+                    remote: https://github.com/karpathy/nanochat.git
+                gpu: NVIDIA A100 80GB PCIe
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-81ce2834-5708-7c30-ca85-ec061a0034e6
+                host: esterel37-1.sophia.grid5000.fr
+                memory:
+                    total: "540808548352"
+                os: Linux-5.10.0-38-amd64-x86_64-with-glibc2.31
+                program: -m scripts.base_train
+                python: CPython 3.10.20
+                root: /home/abinetru/nanochat
+                startedAt: "2026-06-24T03:37:18.455598Z"
+                writerId: 96omsh2xo8teqk8qbbuzn0y4txqhgikz
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.10.20
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
+aspect_ratio:
+    value: 64
+core_metric_every:
+    value: 2000
+core_metric_max_per_task:
+    value: 500
+depth:
+    value: 12
+device_batch_size:
+    value: 16
+device_type:
+    value: ""
+embedding_lr:
+    value: 0.3
+eval_every:
+    value: 250
+eval_tokens:
+    value: 41943040
+final_lr_frac:
+    value: 0.05
+fp8:
+    value: false
+fp8_recipe:
+    value: tensorwise
+head_dim:
+    value: 128
+matrix_lr:
+    value: 0.02
+max_seq_len:
+    value: 2048
+model_tag:
+    value: null
+num_iterations:
+    value: -1
+resume_from_step:
+    value: -1
+run:
+    value: nanochat_60_20_20
+sample_every:
+    value: 2000
+save_every:
+    value: -1
+scalar_lr:
+    value: 0.5
+target_flops:
+    value: -1
+target_param_data_ratio:
+    value: 8
+total_batch_size:
+    value: -1
+unembedding_lr:
+    value: 0.008
+warmdown_ratio:
+    value: 0.65
+warmup_steps:
+    value: 40
+weight_decay:
+    value: 0.28
+window_pattern:
+    value: L

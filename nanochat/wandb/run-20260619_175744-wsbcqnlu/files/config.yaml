@@ -1,0 +1,102 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            8uahld8t6aajisa5drlll2xukfrrpygk:
+                args:
+                    - --device-batch-size=16
+                    - --run=croissant_75b_run
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "30333054976"
+                        used: "21454778368"
+                email: andrea.binetruy@gmail.com
+                executable: /home/abinetru/nanochat/.venv/bin/python3
+                git:
+                    commit: 0aaca56805eb13f6e6e1fff789a08086902f12ab
+                    remote: https://github.com/karpathy/nanochat.git
+                gpu: NVIDIA A100 80GB PCIe
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-81ce2834-5708-7c30-ca85-ec061a0034e6
+                host: esterel37-1.sophia.grid5000.fr
+                memory:
+                    total: "540808548352"
+                os: Linux-5.10.0-38-amd64-x86_64-with-glibc2.31
+                program: -m scripts.Full_chat_sft
+                python: CPython 3.10.20
+                root: /home/abinetru/nanochat
+                startedAt: "2026-06-19T15:57:44.717105Z"
+                writerId: 8uahld8t6aajisa5drlll2xukfrrpygk
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 49
+                - 51
+            "2":
+                - 1
+                - 49
+                - 51
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.20
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
+chatcore_every:
+    value: 200
+chatcore_max_cat:
+    value: -1
+chatcore_max_sample:
+    value: 24
+device_batch_size:
+    value: 16
+device_type:
+    value: ""
+embedding_lr:
+    value: null
+eval_every:
+    value: 200
+eval_tokens:
+    value: 20971520
+final_lr_frac:
+    value: 0
+gsm8k_epochs:
+    value: 4
+init_lr_frac:
+    value: 0.8
+load_optimizer:
+    value: 1
+matrix_lr:
+    value: null
+max_seq_len:
+    value: null
+mmlu_epochs:
+    value: 3
+model_step:
+    value: null
+model_tag:
+    value: null
+num_iterations:
+    value: -1
+run:
+    value: croissant_75b_run
+total_batch_size:
+    value: null
+unembedding_lr:
+    value: null
+warmdown_ratio:
+    value: 0.5
+warmup_ratio:
+    value: 0

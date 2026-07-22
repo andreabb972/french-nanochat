@@ -1,0 +1,94 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            h22cd6z5yr1xzj8zrov8wi9gsqf9xpf5:
+                args:
+                    - --device-batch-size=16
+                    - --run=nanochat_sft_96h_h100
+                    - --matrix-lr
+                    - "0.01"
+                    - --embedding-lr
+                    - "0.15"
+                    - --unembedding-lr
+                    - "0.002"
+                    - --num-iterations
+                    - "969"
+                    - --model-tag
+                    - sft_lr_diviser2
+                email: andrea.binetruy@gmail.com
+                executable: /home/abinetru/nanochat/.venv/bin/python3
+                git:
+                    commit: 0aaca56805eb13f6e6e1fff789a08086902f12ab
+                    remote: https://github.com/karpathy/nanochat.git
+                host: esterel37-1.sophia.grid5000.fr
+                os: Linux-5.10.0-38-amd64-x86_64-with-glibc2.31
+                program: -m scripts.c2_1c_chat_sft
+                python: CPython 3.10.20
+                root: /home/abinetru/nanochat
+                startedAt: "2026-07-02T09:01:51.479842Z"
+                writerId: h22cd6z5yr1xzj8zrov8wi9gsqf9xpf5
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 49
+                - 51
+            "2":
+                - 1
+                - 49
+                - 51
+            "3":
+                - 13
+                - 16
+            "4": 3.10.20
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
+chatcore_every:
+    value: 200
+chatcore_max_cat:
+    value: -1
+chatcore_max_sample:
+    value: 24
+device_batch_size:
+    value: 16
+device_type:
+    value: ""
+embedding_lr:
+    value: 0.15
+eval_every:
+    value: 200
+eval_tokens:
+    value: 20971520
+final_lr_frac:
+    value: 0
+gsm8k_epochs:
+    value: 4
+init_lr_frac:
+    value: 0.8
+load_optimizer:
+    value: 1
+matrix_lr:
+    value: 0.01
+max_seq_len:
+    value: null
+mmlu_epochs:
+    value: 3
+model_step:
+    value: null
+model_tag:
+    value: sft_lr_diviser2
+num_iterations:
+    value: 969
+run:
+    value: nanochat_sft_96h_h100
+total_batch_size:
+    value: null
+unembedding_lr:
+    value: 0.002
+warmdown_ratio:
+    value: 0.5
+warmup_ratio:
+    value: 0
