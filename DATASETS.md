@@ -54,3 +54,17 @@ To build the final pretraining dataset for NanoChat-FR, three subsampled corpora
     [https://huggingface.co/datasets/manu/french-30b](https://huggingface.co/datasets/manu/french-30b)
     [https://huggingface.co/datasets/manu/english-60b](https://huggingface.co/datasets/manu/english-60b)
     [https://huggingface.co/datasets/manu/code_20b](https://huggingface.co/datasets/manu/code_20b)
+
+## Fine-tuning Corpus (SFT)
+
+For the supervised fine-tuning (SFT) stage of NanoChat-FR, the dataset used is the one released by the **CroissantLLM** project for training their chat model (**CroissantLLMChat**).
+
+*   **CroissantLLM-2201-sft**:
+    *   Built from public chat datasets **Ultrachat** and **Wildchat**, containing ChatGPT interactions in both English and French.
+    *   Also incorporates **translation data** (~4% of the SFT dataset, ~12k samples) to reinforce bilingual capabilities during fine-tuning.
+    *   Used in the CroissantLLM paper to fine-tune the base model into CroissantLLMChat, as well as comparison baselines (Bloom-1b7, TinyLlama).
+
+## Datasets Sources
+
+*   **SFT dataset**:
+    [https://huggingface.co/datasets/croissantllm/CroissantLLM-2201-sft](https://huggingface.co/datasets/croissantllm/CroissantLLM-2201-sft)
