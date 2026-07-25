@@ -1,0 +1,18 @@
+# .gitignore à la racine de french_ClimbMix
+
+# 1. On ignore tout à la racine par défaut
+/*
+
+# 2. Sauf ces deux dossiers (et le .gitignore lui-même)
+!/runs/
+!/script/
+!/.gitignore
+
+# 3. Dans runs/, on ignore tout sauf run_shuffle_final.sh
+/runs/*
+!/runs/run_shuffle_final.sh
+
+# 4. Dans script/, on ignore les 3 fichiers non désirés
+/script/convert_croissant.py
+/script/analyze_climbmix.py
+/script/download_croissant.py
