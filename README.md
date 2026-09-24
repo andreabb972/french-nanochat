@@ -48,7 +48,6 @@ The best model obtained (following a **8 tokens/parameter** ratio) was trained a
 
 - **Pretraining**: a **d24** model trained on the pretraining dataset described in [`DATASETS.md`](./DATASETS.md) (the bilingual ~75B token mix produced by `french_ClimbMix/`).
 - **SFT**: 2 epochs on the CroissantLLM dataset (as described in [`DATASETS.md`](./DATASETS.md)) + 1 epoch on nanochat's base SFT dataset.
-  - Total SFT time: ~30h on a single H100.
   - The SFT learning rate must be **lowered by a factor of 1.5** compared to the default values used in the base nanochat SFT config:
     ```python
     ("embedding_lr", 0.2, pretrain_user_config),
@@ -59,6 +58,7 @@ The best model obtained (following a **8 tokens/parameter** ratio) was trained a
 
 - **Model size**: d24, **1,384,122,122 parameters (~1.38B)**, trained on 5,838,471,168 tokens.
 - **Training metrics**:
+  - Total time: ~30h on a single H100.
   - Minimum validation bpb: 0.7197
   - Final validation bpb: 0.7197
   - CORE metric estimate: 0.1789
