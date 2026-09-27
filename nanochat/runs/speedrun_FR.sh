@@ -30,8 +30,8 @@ rm -rf "$NANOCHAT_BASE_DIR/data" "$NANOCHAT_BASE_DIR/base_data"
 ln -s "$DATASET_75B_DIR" "$NANOCHAT_BASE_DIR/data"
 ln -s "$DATASET_75B_DIR" "$NANOCHAT_BASE_DIR/base_data"
 
-export WANDB_API_KEY="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"
-WANDB_RUN="croissant_H100_150tok"
+export WANDB_API_KEY=""
+WANDB_RUN="croissant_nanochat"
 
 
 # Initialisation du rapport de performance
