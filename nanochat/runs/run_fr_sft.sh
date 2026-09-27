@@ -4,8 +4,8 @@ cd /home/abinetru/nanochat
 export PATH="$HOME/.local/bin:$PATH"
 export PYTHONPATH=$(pwd):$PYTHONPATH
 
-export WANDB_API_KEY="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"
-export WANDB_RUN="nanochat_sft_div6"
+export WANDB_API_KEY=""
+export WANDB_RUN="nanochat_sft"
 
 export OMP_NUM_THREADS=1
 export NANOCHAT_BASE_DIR="$HOME/.cache/nanochat_lr_div6/"
